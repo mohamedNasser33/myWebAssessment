@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="style.css"/>
+    
+</head>
+<body >
+    <div id="Nav">
+      
+        <div id="nav-bar">
+            <div class="logo">
+                <img src="1519865169926.png"/>
+            </div>
+            <div class="nav-bar-menu">
+             <ul class="nav-menu">
+                 <li><a href="">Home</a></li>
+                 <li><a href="">About</a></li>
+                 <li><a href="">Blog</a></li>
+                 <li><a href="">Contact</a></li>
+                 <li><a href="">SignUp</a></li>
+             </ul>
+            </div>
+        
+        
+        </div>
+     
+    
+     </div>
+    <div id="Slide">
+        <div class="empty"></div>
+       <div class="Slide-Show">
+        
+        <h1>Add Image Here</h1>
+        <button id="mode">Change to Night Mode</button>
+        </div>
+       
+    
+    </div>
+    <div class="border"></div>
+    <div id="work">
+    <h1>My work</h1>
+        <div class="flex">
+            <div><img style="width: 200px;" src ="img/ptjt1.png"/> </div>
+            <div><img style="width: 200px;" src ="img/ptjt2.png"/> </div>
+            <div><img style="width: 200px;" src ="img/ptjt3.png"/> </div>
+        
+        
+        
+        </div>
+    
+    
+    
+    
+    </div>
+</body>
+<script>
+    let btn =document.getElementById("mode");
+    btn.addEventListener("click",nightmode);
+    function nightmode ()
+    {
+        document.body.classList.toggle("toggle");
+    }
+
+</script>
+
+
+</html>
